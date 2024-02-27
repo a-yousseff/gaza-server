@@ -13,6 +13,6 @@ public class DemoController {
     @RequestMapping
     @CrossOrigin(origins = "*")
     public ResponseEntity<String> hello() {
-        return ResponseEntity.ok("V1");
+        return ResponseEntity.ok("2");
     }
 }
